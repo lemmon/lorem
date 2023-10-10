@@ -1,0 +1,42 @@
+@import 'abrusco/base';
+@import 'abrusco/modules';
+@import 'abrusco/utils';
+@import 'abrusco/debug';
+
+:root {
+  --code-font-family: JetBrains Mono, JetBrainsMono, Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+  --text-decoration-thickness: 1px;
+  --text-underline-offset: 2px;
+  font-feature-settings: 'zero';
+
+  --gray-hue: var(--blue-hue);
+  --gray-sat: 15%;
+
+  --default-color: hsl(var(--gray-hue) var(--gray-sat) 15%);
+
+  --copy-space: 1.5rem;
+
+  --suil-hue: var(--gray-hue);
+  --suil-sat: var(--gray-sat);
+
+  --suil-color-primary: var(--default-color);
+  --suil-color-secondary: hsl(var(--gray-hue) var(--gray-sat) 30%);
+
+  --suil-font-size: 16px;
+  --suil-code-font-size: 14px;
+
+  --suil-border-radius: 3px;
+
+  --suil-size: 1.125rem;
+  --suil-size-md: 0.875rem;
+
+  --suil-button-width: 10rem;
+  --suil-button-justify: center;
+
+  text-decoration-thickness: var(--text-decoration-thickness);
+  text-underline-offset: var(--text-underline-offset);
+}
+
+.suil-button-width-100 {
+  --suil-button-width: 100%;
+}
