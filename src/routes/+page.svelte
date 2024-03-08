@@ -19,14 +19,14 @@ function generate() {
 
 <div class="my">
   <div class="max40 mx">
-    <div class="p1 copy lh2">
+    <div class="p1 copy h5 lh2">
       {#each text.split('\n') as p}
         <p>{p}</p>
       {/each}
     </div>
     <div class="p1 row">
       <Button
-        size="sm"
+        size="md"
         min
         on:click={() => {
           generate()
